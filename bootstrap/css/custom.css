@@ -3521,11 +3521,14 @@ tbody.collapse.in {
     border-top-left-radius:15px;
     border-top-right-radius:15px;
     padding:1px;
+    align-items: center;
 }
 
 #menu li {
     float: left;
-  }
+  align-items: center;
+
+}
 
 #menu li a, .dropbtn {
     display: inline-block;
@@ -3533,11 +3536,15 @@ tbody.collapse.in {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-   }
+  align-items: center;
+
+}
 
 #menu li a:hover, .dropdown:hover .dropbtn {
     background-color: lime;
-  }
+  align-items: center;
+
+}
 
 #menu li.dropdown {
     display: inline-block;

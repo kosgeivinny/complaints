@@ -27,19 +27,15 @@ if (isset($_POST["submit"]))
 		$firstname=$_POST['firstname'];
 		$lastname=$_POST['lastname'];
 		$surname=$_POST['surname'];
+		$department=$_POST['department'];
+		$job=$_POST['job'];
 		$gender=$_POST['gender'];
-		$dob=$_POST['dob'];
-		$status=$_POST['status'];
-		$nationalid=$_POST['nationalid'];
-		$phonenumber=$_POST['phonenumber'];
-		$county=$_POST['county'];
-		$childrenshomeid=$_POST['childrenshomeid'];
 		$email=$_POST['email'];
 		$username=$_POST['username'];
-		$password=$_POST['pwd'];
+		$password=$_POST['password'];
 		$encypass=md5($password);
 		
-		if (empty($dob) || empty($status) || empty($nationalid) || empty($phonenumber) || empty($county) || empty($childrenshomeid) || empty($email) || empty($username) || empty($password)) {
+		if (empty($firstname) || empty($lastname) || empty($surname) || empty($gender) || empty($job) || empty($department) || empty($email) || empty($username) || empty($password)) {
 			?>
         <script> alert ('Oops!! cant leave any field blank');
         window.location.assign('staff_signup.php');
@@ -51,9 +47,8 @@ if (isset($_POST["submit"]))
  			 $Path=time().$image;
  			 $upl=$directory.$image;
   			if(move_uploaded_file($_FILES['image']['tmp_name'], $directory. $image)){  
-		$sql="INSERT INTO staff(Image,First_name,Last_name,Surname,Gender,Date_of_Birth,Status,ID_NO,Phone_number,County,Home_ID,Email,Username,Password)".
-		 "VALUES('$upl','$firstname','$lastname','$surname','$gender','$dob','$status','$nationalid','$phonenumber',
-		'$county','$childrenshomeid','$email','$username','$password')";
+		$sql="INSERT INTO staff(Image,First_name,Last_name,Surname,Department,Job_title,Gender,Email,Username,Password)".
+		 "VALUES('$upl','$firstname','$lastname','$surname','$department','$job','$gender','$email','$username','$password')";
 		}
 		$res=mysqli_query($conn,$sql);
 		if(!$res)

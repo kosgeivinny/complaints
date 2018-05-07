@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <marquee style="marquee-style:scroll;"><span class="copyright"><i>Copyright &copy; Adoption System 2017</i></span></marquee>
+                    <marquee style="marquee-style:scroll;"><span class="copyright"><i>Copyright &copy; Online complain system 2018</i></span></marquee>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">

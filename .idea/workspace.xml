@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a184c61d-e092-4ac8-953c-b3c2570c6d61" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin_connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin_login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin_logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin_signup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/adminloginver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/complain_connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/solved_staff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/solved_student.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/stacomplain_connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staff_complain.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staff_complains.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staff_response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staff_solved.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staffresponse_connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_complain.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_signup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_solved.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/studentloginver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/studentresponse_connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/students_complains.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/studentview.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/about.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopted.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopter_connect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopter_login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopter_signup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterheader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterloginver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterreject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterview2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adoptf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adoption.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adoptionform.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adoptionprocedure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/child_connect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/child_signup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/childdelete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/childupdate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/childupdate_connect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/confirmation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/confirmation2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/contacts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/donate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/home_connect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/home_signup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/popup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/proc.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsor_connect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsored.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorform.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorreject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorview2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/staffloginverbackup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/staffloginverbackup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/viewver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simple-file-upload.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staff_actions.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/bootstrap/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connect/connect.php" afterPath="$PROJECT_DIR$/connect/connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/footer.php" afterPath="$PROJECT_DIR$/forms/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staff.php" afterPath="$PROJECT_DIR$/forms/staff.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staff_connect.php" afterPath="$PROJECT_DIR$/forms/staff_connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staff_login.php" afterPath="$PROJECT_DIR$/forms/staff_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staff_signup.php" afterPath="$PROJECT_DIR$/forms/staff_signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staffloginver.php" afterPath="$PROJECT_DIR$/forms/staffloginver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staffview.php" afterPath="$PROJECT_DIR$/forms/staffview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="61" column="6" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="61" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentview.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/forms/studentview.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2456">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <marker date="1525680229768" expanded="true" signature="3178:3289" ph="SELECT First... student_complain" />
+                <marker date="1525680229768" expanded="false" signature="3433:3457" ph="..." />
+                <marker date="1525680229768" expanded="true" signature="3458:3566" ph="..." />
+                <marker date="1525680229768" expanded="true" signature="3470:3566" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="staff_signup.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/staff_signup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="148" column="12" lean-forward="true" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="staff.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/staff.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="55" column="21" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="55" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/student.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="59" column="91" lean-forward="false" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_complain.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/student_complain.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1842">
+              <caret line="62" column="91" lean-forward="false" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_response.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/student_response.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3586">
+              <caret line="180" column="134" lean-forward="false" selection-start-line="180" selection-start-column="134" selection-end-line="180" selection-end-column="134" />
+              <folding>
+                <marker date="1525674789869" expanded="true" signature="2942:2999" ph="SELECT * FRO... student_complain" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_signup.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/student_signup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4768">
+              <caret line="251" column="97" lean-forward="false" selection-start-line="251" selection-start-column="97" selection-end-line="251" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_solved.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/student_solved.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              <folding>
+                <marker date="1525680228896" expanded="true" signature="3175:3254" ph="SELECT Cours... student_response" />
+                <marker date="1525680228896" expanded="true" signature="3175:3279" ph="SELECT Cours... student_response" />
+                <marker date="1525680228896" expanded="false" signature="3423:3447" ph="..." />
+                <marker date="1525680228896" expanded="true" signature="3448:3564" ph="..." />
+                <marker date="1525680228896" expanded="true" signature="3460:3564" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="staffview.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/staffview.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1453">
+              <caret line="62" column="93" lean-forward="false" selection-start-line="62" selection-start-column="93" selection-end-line="62" selection-end-column="93" />
+              <folding>
+                <marker date="1525679892102" expanded="true" signature="3374:3473" ph="SELECT Image... child" />
+                <marker date="1525679892102" expanded="true" signature="3598:3622" ph="..." />
+                <marker date="1525679892102" expanded="true" signature="3623:3707" ph="..." />
+                <marker date="1525679892102" expanded="true" signature="3635:3707" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>menu</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bootstrap/css/custom.css" />
+        <option value="$PROJECT_DIR$/connect/connect.php" />
+        <option value="$PROJECT_DIR$/forms/staff_connect.php" />
+        <option value="$PROJECT_DIR$/forms/staffloginver.php" />
+        <option value="$PROJECT_DIR$/forms/admin_connect.php" />
+        <option value="$PROJECT_DIR$/forms/student_login.php" />
+        <option value="$PROJECT_DIR$/forms/admin_login.php" />
+        <option value="$PROJECT_DIR$/forms/adminloginver.php" />
+        <option value="$PROJECT_DIR$/forms/studentresponse_connect.php" />
+        <option value="$PROJECT_DIR$/forms/complain_connect.php" />
+        <option value="$PROJECT_DIR$/forms/stacomplain_connect.php" />
+        <option value="$PROJECT_DIR$/forms/staffresponse_connect.php" />
+        <option value="$PROJECT_DIR$/forms/admin_logout.php" />
+        <option value="$PROJECT_DIR$/forms/admin.php" />
+        <option value="$PROJECT_DIR$/forms/footer.php" />
+        <option value="$PROJECT_DIR$/forms/admin_signup.php" />
+        <option value="$PROJECT_DIR$/forms/solved_student.php" />
+        <option value="$PROJECT_DIR$/forms/solved_staff.php" />
+        <option value="$PROJECT_DIR$/forms/staff_complains.php" />
+        <option value="$PROJECT_DIR$/forms/staff_login.php" />
+        <option value="$PROJECT_DIR$/forms/staff_response.php" />
+        <option value="$PROJECT_DIR$/forms/student_connect.php" />
+        <option value="$PROJECT_DIR$/forms/student_response.php" />
+        <option value="$PROJECT_DIR$/forms/student_signup.php" />
+        <option value="$PROJECT_DIR$/forms/studentloginver.php" />
+        <option value="$PROJECT_DIR$/forms/students_complains.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/forms/staff_signup.php" />
+        <option value="$PROJECT_DIR$/forms/staff.php" />
+        <option value="$PROJECT_DIR$/forms/staff_complain.php" />
+        <option value="$PROJECT_DIR$/forms/staff_solved.php" />
+        <option value="$PROJECT_DIR$/forms/staffview.php" />
+        <option value="$PROJECT_DIR$/forms/student.php" />
+        <option value="$PROJECT_DIR$/forms/student_complain.php" />
+        <option value="$PROJECT_DIR$/forms/student_solved.php" />
+        <option value="$PROJECT_DIR$/forms/studentview.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="677" />
+    <option name="y" value="-4" />
+    <option name="width" value="617" />
+    <option name="height" value="724" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="complaints" type="b2602c69:ProjectViewProjectNode" />
+              <item name="complaints" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="complaints" type="b2602c69:ProjectViewProjectNode" />
+              <item name="complaints" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="connect" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="complaints" type="b2602c69:ProjectViewProjectNode" />
+              <item name="complaints" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="forms" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a184c61d-e092-4ac8-953c-b3c2570c6d61" name="Default" comment="" />
+      <created>1517778348207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517778348207</updated>
+      <workItem from="1517778349557" duration="880000" />
+      <workItem from="1521103531871" duration="598000" />
+      <workItem from="1525491808429" duration="173000" />
+      <workItem from="1525492188515" duration="1500000" />
+      <workItem from="1525493996507" duration="1093000" />
+      <workItem from="1525496086000" duration="1415000" />
+      <workItem from="1525503264353" duration="1756000" />
+      <workItem from="1525505100113" duration="1693000" />
+      <workItem from="1525506940193" duration="1749000" />
+      <workItem from="1525508730925" duration="1764000" />
+      <workItem from="1525586527080" duration="1754000" />
+      <workItem from="1525588334430" duration="1785000" />
+      <workItem from="1525590430747" duration="1806000" />
+      <workItem from="1525592344329" duration="1637000" />
+      <workItem from="1525594429237" duration="1790000" />
+      <workItem from="1525596288324" duration="977000" />
+      <workItem from="1525598375778" duration="1249000" />
+      <workItem from="1525600151772" duration="1786000" />
+      <workItem from="1525601963463" duration="1787000" />
+      <workItem from="1525603833108" duration="1785000" />
+      <workItem from="1525605723739" duration="1788000" />
+      <workItem from="1525607567113" duration="1790000" />
+      <workItem from="1525609380622" duration="969000" />
+      <workItem from="1525622413438" duration="1753000" />
+      <workItem from="1525627485325" duration="7155000" />
+      <workItem from="1525676031340" duration="3972000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46932000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="677" y="-4" width="1368" height="780" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20278184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bootstrap/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="65" lean-forward="false" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/child_signup.php" />
+    <entry file="file://$PROJECT_DIR$/forms/stafff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/home_signup.php" />
+    <entry file="file://$PROJECT_DIR$/forms/sponsor_connect.php" />
+    <entry file="file://$PROJECT_DIR$/forms/sponsored.php" />
+    <entry file="file://$PROJECT_DIR$/forms/childdelete.php" />
+    <entry file="file://$PROJECT_DIR$/forms/child_connect.php" />
+    <entry file="file://$PROJECT_DIR$/forms/childupdate.php" />
+    <entry file="file://$PROJECT_DIR$/forms/childupdate_connect.php" />
+    <entry file="file://$PROJECT_DIR$/forms/confirmation.php" />
+    <entry file="file://$PROJECT_DIR$/forms/index.php" />
+    <entry file="file://$PROJECT_DIR$/forms/session.php" />
+    <entry file="file://$PROJECT_DIR$/forms/staffheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3657">
+          <caret line="159" column="112" lean-forward="false" selection-start-line="159" selection-start-column="112" selection-end-line="159" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="130" lean-forward="false" selection-start-line="30" selection-start-column="130" selection-end-line="30" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/admin_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1525596409504" expanded="true" signature="1717:1910" ph="INSERT INTO staff... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/admin_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="35" column="83" lean-forward="false" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/admin_logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/admin_signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/adminloginver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <marker date="1525598585356" expanded="true" signature="201:277" ph="SELECT * FRO... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/complain_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="25" column="175" lean-forward="false" selection-start-line="25" selection-start-column="175" selection-end-line="25" selection-end-column="175" />
+          <folding>
+            <marker date="1525605618228" expanded="true" signature="609:761" ph="INSERT INTO complain... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/solved_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="125" column="131" lean-forward="false" selection-start-line="125" selection-start-column="131" selection-end-line="125" selection-end-column="131" />
+          <folding>
+            <marker date="1525673049629" expanded="true" signature="3055:3126" ph="SELECT First... student_" />
+            <marker date="1525673049629" expanded="true" signature="3055:3134" ph="SELECT First... student_response" />
+            <marker date="1525673049629" expanded="false" signature="3278:3302" ph="..." />
+            <marker date="1525673049629" expanded="true" signature="3303:3432" ph="..." />
+            <marker date="1525673049629" expanded="true" signature="3315:3432" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/solved_staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="125" column="113" lean-forward="false" selection-start-line="125" selection-start-column="113" selection-end-line="125" selection-end-column="113" />
+          <folding>
+            <marker date="1525673049433" expanded="true" signature="3046:3126" ph="SELECT First... staff_response" />
+            <marker date="1525673049433" expanded="false" signature="3270:3294" ph="..." />
+            <marker date="1525673049433" expanded="true" signature="3295:3427" ph="..." />
+            <marker date="1525673049433" expanded="true" signature="3307:3427" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/stacomplain_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="25" column="169" lean-forward="false" selection-start-line="25" selection-start-column="169" selection-end-line="25" selection-end-column="169" />
+          <folding>
+            <marker date="1525605618176" expanded="true" signature="594:744" ph="INSERT INTO staff_complain... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff_complains.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="128" column="71" lean-forward="false" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
+          <folding>
+            <marker date="1525673049169" expanded="true" signature="3046:3116" ph="SELECT First... staff_complain" />
+            <marker date="1525673049169" expanded="false" signature="3260:3284" ph="..." />
+            <marker date="1525673049169" expanded="true" signature="3285:3409" ph="..." />
+            <marker date="1525673049169" expanded="true" signature="3297:3409" ph="..." />
+            <marker date="1525673049169" expanded="true" signature="3654:3837" ph="..." />
+            <marker date="1525673049169" expanded="true" signature="3712:3832" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <marker date="1525587214184" expanded="true" signature="1815:2041" ph="INSERT INTO staff... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff_logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff_response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1012">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <marker date="1525673049309" expanded="true" signature="3044:3099" ph="SELECT * FRO... staff_complain" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staffloginver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <marker date="1525591335000" expanded="true" signature="222:298" ph="SELECT * FRO... staff" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staffresponse_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <marker date="1525607479848" expanded="true" signature="1376:1525" ph="INSERT INTO staff_response... " />
+            <marker date="1525607479848" expanded="true" signature="1668:1724" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/student_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1525674789633" expanded="true" signature="1809:2047" ph="INSERT INTO students... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/student_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/student_logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/studentloginver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1525674789577" expanded="true" signature="171:250" ph="SELECT * FRO... students" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/studentresponse_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/students_complains.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2489">
+          <caret line="127" column="135" lean-forward="false" selection-start-line="127" selection-start-column="135" selection-end-line="127" selection-end-column="135" />
+          <folding>
+            <marker date="1525674790061" expanded="true" signature="2947:3016" ph="SELECT First... student_complain" />
+            <marker date="1525674790061" expanded="true" signature="3160:3184" ph="..." />
+            <marker date="1525674790061" expanded="true" signature="3185:3306" ph="..." />
+            <marker date="1525674790061" expanded="true" signature="3197:3306" ph="..." />
+            <marker date="1525674790061" expanded="true" signature="3548:3733" ph="..." />
+            <marker date="1525674790061" expanded="true" signature="3608:3728" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff_signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="148" column="12" lean-forward="true" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="61" column="6" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="61" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="55" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff_complain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="63" column="89" lean-forward="false" selection-start-line="63" selection-start-column="89" selection-end-line="63" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staffview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1453">
+          <caret line="62" column="93" lean-forward="false" selection-start-line="62" selection-start-column="93" selection-end-line="62" selection-end-column="93" />
+          <folding>
+            <marker date="1525679892102" expanded="true" signature="3374:3473" ph="SELECT Image... child" />
+            <marker date="1525679892102" expanded="true" signature="3598:3622" ph="..." />
+            <marker date="1525679892102" expanded="true" signature="3623:3707" ph="..." />
+            <marker date="1525679892102" expanded="true" signature="3635:3707" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/staff_solved.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="62" column="91" lean-forward="false" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
+          <folding>
+            <marker date="1525679654042" expanded="true" signature="3165:3234" ph="SELECT Cours... student_response" />
+            <marker date="1525679654042" expanded="true" signature="3165:3259" ph="SELECT First... staff_response" />
+            <marker date="1525679654042" expanded="false" signature="3403:3427" ph="..." />
+            <marker date="1525679654042" expanded="true" signature="3428:3529" ph="..." />
+            <marker date="1525679654042" expanded="true" signature="3440:3529" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="59" column="91" lean-forward="false" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/student_complain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1842">
+          <caret line="62" column="91" lean-forward="false" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/student_response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3586">
+          <caret line="180" column="134" lean-forward="false" selection-start-line="180" selection-start-column="134" selection-end-line="180" selection-end-column="134" />
+          <folding>
+            <marker date="1525674789869" expanded="true" signature="2942:2999" ph="SELECT * FRO... student_complain" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/student_signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4768">
+          <caret line="251" column="97" lean-forward="false" selection-start-line="251" selection-start-column="97" selection-end-line="251" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/student_solved.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <marker date="1525680228896" expanded="true" signature="3175:3254" ph="SELECT Cours... student_response" />
+            <marker date="1525680228896" expanded="true" signature="3175:3279" ph="SELECT Cours... student_response" />
+            <marker date="1525680228896" expanded="false" signature="3423:3447" ph="..." />
+            <marker date="1525680228896" expanded="true" signature="3448:3564" ph="..." />
+            <marker date="1525680228896" expanded="true" signature="3460:3564" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/studentview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2456">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1525680229768" expanded="true" signature="3178:3289" ph="SELECT First... student_complain" />
+            <marker date="1525680229768" expanded="false" signature="3433:3457" ph="..." />
+            <marker date="1525680229768" expanded="true" signature="3458:3566" ph="..." />
+            <marker date="1525680229768" expanded="true" signature="3470:3566" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

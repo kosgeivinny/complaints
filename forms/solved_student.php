@@ -1,15 +1,20 @@
 <?php
-include "../forms/staffloginver.php";
+include "../forms/adminloginver.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Staff Page</title>
+    <title>Admin Page</title>
+    <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLES-->
     <link href="assets/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
 <body>
 
@@ -30,43 +35,43 @@ include "../forms/staffloginver.php";
                 </a>
 
             </div>
+
             <span class="logout-spn" >
                   <img class="img-circle" style='width:80px;height:80px;' src="<?php echo $_SESSION['Photo'] ?>" />
 
                    <a href="staff_logout.php" class="btn btn-warning">
           <span class="glyphicon glyphicon-log-out"></span> <b>LOG OUT</b>
         </a>
-
                 </span>
         </div>
     </div>
     <!-- /. NAV TOP  -->
-
     <nav class="navbar-default navbar-side" role="navigation">
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu">
+
+
+
                 <li>
-                    <a><button type="button"> My account </button></a>
+                    <a href="admin.php" ><i class="fa fa-desktop "></i> Home </a>
+                </li>
+
+
+                <li>
+                    <a href="students_complains.php"><i class="fa fa-table "></i> Students Complains</a>
                 </li>
                 <li>
-                    <a><button type="button"> Academic </button></a>
-                </li>
-                <li>
-                    <a><button type="button"> General </button></a>
+                    <a href="staff_complains.php"><i class="fa fa-edit "></i> Staff Complains </a>
                 </li>
 
                 <li class="active-link">
-                    <a href="staff.php" ><i class="fa fa-desktop "></i> Disciplinary case </a>
+                    <a href="solved_student.php"><i class="fa fa-qrcode "></i> Solved Student Complains </a>
                 </li>
                 <li>
-                    <a href="staff_complain.php"><i class="fa fa-table "></i> Enter Complain</a>
+                    <a href="solved_staff.php"><i class="fa fa-bar-chart-o"></i> Solved Staff Complains</a>
                 </li>
-                <li>
-                    <a href="staffview.php"><i class="fa fa-edit "></i> Pending Complains </a>
-                </li>
-                <li>
-                    <a href="staff_solved.php"><i class="fa fa-bar-chart-o"></i> Solved Complains</a>
-                </li>
+
+
 
             </ul>
         </div>
@@ -76,64 +81,36 @@ include "../forms/staffloginver.php";
     <div id="page-wrapper" >
         <div id="page-inner">
             <div class="row">
-                <div class="col-lg-12">
-                    <h2>STAFF DASHBOARD</h2>
+                <div class="col-md-12">
+                    <h2 align="center"> SOLVED STUDENTS COMPLAINS </h2>
                 </div>
             </div>
             <!-- /. ROW  -->
             <hr />
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <div class="alert alert-info">
-                        <strong>Welcome <?php echo $_SESSION['name'];?>! </strong>
-                    </div>
+            <div class="container">
+                <?php
 
-                </div>
+                include "../connect/connect.php";
+
+                $rus = "SELECT First_name, Course, Department, Complain, Response FROM student_response";
+                $sur = $conn->Query($rus);
+
+                echo "<table class='table table-bordered' cellspacing='15px' border='0px' style='width:980px;height:auto;'>
+    <thead> 
+    <tr class='info'><th>Name</th><th>Course</th><th>Department</th><th>Complain</th><th>Response</th></tr></thead>";
+
+                while($row =mysqli_fetch_assoc($sur)) {
+
+                    echo "<tr><td>".$row["First_name"]."</td><td>".$row["Course"]."</td><td>".$row["Department"]."</td><td>".$row["Complain"]."</td><td>".$row["Response"]."</td></tr>";
+
+                }
+                echo "</table>";
+
+                mysqli_free_result($sur);
+
+
+                ?>
             </div>
-            <div class="well well-lg">
-                <h3> HELP PROMOTE COMPLAIN MANAGEMENT IN OUR INSTITUTION </h3>
-
-            </div>
-            <!-- /. ROW  -->
-            <div class="row text-center pad-top">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                    <div class="div-square">
-                        <a href="student_complain.php" >
-                            <i class="fa fa-user fa-5x"></i>
-                            <h4>Enter Complain</h4>
-                        </a>
-                    </div>
-
-
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                    <div class="div-square">
-                        <a href="staffview.php" >
-                            <i class="fa fa-users fa-5x"></i>
-                            <h4> Pending Complains</h4>
-                        </a>
-                    </div>
-
-
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                    <div class="div-square">
-                        <a href="staff_solved.php" >
-                            <i class="fa fa-comments-o fa-5x"></i>
-                            <h4>Solved Complains</h4>
-                        </a>
-                    </div>
-
-
-                </div>
-
-
-
-            </div>
-            <!-- /. ROW  -->
-
 
             <!-- /. ROW  -->
         </div>
@@ -146,7 +123,7 @@ include "../forms/staffloginver.php";
 
     <div class="row">
         <div class="col-lg-12" >
-            &copy;  2018 Online Complain System | Design by: <a href="#" style="color:#fff;" target="_blank"> VK </a>
+            &copy;  2018 Online Complain System | Design by: <a href="http://binarytheme.com" style="color:#fff;" target="_blank"> VK </a>
         </div>
     </div>
 </div>

@@ -35,7 +35,7 @@
       </div>
       <div style="border-top: 1px solid#888; padding-top:0px; font-size:8%" >
                                             <br> <br> <h6>Don't have an account! </h6>
-                                        <a href="#yModal" data-toggle="modal" data-target="#yModal">
+                                        <a href="staff_signup.php">
                                             <h7> <i>Sign Up Here</i></h7> <br>
                                         </a>
             </div>

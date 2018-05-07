@@ -1,12 +1,12 @@
 <?php
-include "../forms/staffloginver.php";
+include "../forms/studentloginver.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Staff Page</title>
+    <title>Student Page</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/css/custom.css" rel="stylesheet" />
@@ -30,10 +30,11 @@ include "../forms/staffloginver.php";
                 </a>
 
             </div>
+
             <span class="logout-spn" >
                   <img class="img-circle" style='width:80px;height:80px;' src="<?php echo $_SESSION['Photo'] ?>" />
 
-                   <a href="staff_logout.php" class="btn btn-warning">
+                   <a href="student_logout.php" class="btn btn-warning">
           <span class="glyphicon glyphicon-log-out"></span> <b>LOG OUT</b>
         </a>
 
@@ -41,7 +42,6 @@ include "../forms/staffloginver.php";
         </div>
     </div>
     <!-- /. NAV TOP  -->
-
     <nav class="navbar-default navbar-side" role="navigation">
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu">
@@ -55,18 +55,24 @@ include "../forms/staffloginver.php";
                     <a><button type="button"> General </button></a>
                 </li>
 
+
                 <li class="active-link">
-                    <a href="staff.php" ><i class="fa fa-desktop "></i> Disciplinary case </a>
+                    <a href="student.php" ><i class="fa fa-desktop "></i> Disciplinary case </a>
+                </li>
+
+
+                <li>
+                    <a href="student_complain.php"><i class="fa fa-table "></i> Enter Complain</a>
                 </li>
                 <li>
-                    <a href="staff_complain.php"><i class="fa fa-table "></i> Enter Complain</a>
+                    <a href="studentview.php"><i class="fa fa-edit "></i> Pending Complains </a>
                 </li>
+
+
                 <li>
-                    <a href="staffview.php"><i class="fa fa-edit "></i> Pending Complains </a>
+                    <a href="student_solved.php"><i class="fa fa-qrcode "></i> Solved complains </a>
                 </li>
-                <li>
-                    <a href="staff_solved.php"><i class="fa fa-bar-chart-o"></i> Solved Complains</a>
-                </li>
+
 
             </ul>
         </div>
@@ -77,7 +83,7 @@ include "../forms/staffloginver.php";
         <div id="page-inner">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>STAFF DASHBOARD</h2>
+                    <h2>STUDENT DASHBOARD</h2>
                 </div>
             </div>
             <!-- /. ROW  -->
@@ -109,27 +115,24 @@ include "../forms/staffloginver.php";
 
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
                     <div class="div-square">
-                        <a href="staffview.php" >
+                        <a href="studentview.php" >
                             <i class="fa fa-users fa-5x"></i>
-                            <h4> Pending Complains</h4>
+                            <h4>Pending Complains</h4>
                         </a>
                     </div>
 
 
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
                     <div class="div-square">
-                        <a href="staff_solved.php" >
-                            <i class="fa fa-comments-o fa-5x"></i>
+                        <a href="student_solved.php" >
+                            <i class="fa fa-wechat fa-5x"></i>
                             <h4>Solved Complains</h4>
                         </a>
                     </div>
 
 
                 </div>
-
-
 
             </div>
             <!-- /. ROW  -->

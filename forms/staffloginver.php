@@ -8,24 +8,22 @@ session_start();
      $encypass=md5($password);
             
    
-      $sql= "SELECT * FROM staff INNER JOIN home WHERE staff.Home_ID=home.Home_ID AND Username = '$username' AND Password = '$password' ";
+      $sql= "SELECT * FROM staff WHERE  Username = '$username' AND Password = '$password' ";
         $result = mysqli_query($conn,$sql);
         $numrows=mysqli_num_rows($result);
         if($numrows==1){
             while($row=mysqli_fetch_assoc($result)){
                 $firstname=$row['First_name'];
-                
+
                 $_SESSION['name']=$row['First_name'];
                 $_SESSION['Photo']=$row['Image'];
-                $_SESSION['logo']=$row['Logo'];
-                $_SESSION['id']=$row['Home_ID'];
 
 
                 
             }//end of while loop
             ?>
     <script>
-        window.location.assign('../forms/stafff.php');
+        window.location.assign('../forms/staff.php');
     
     </script>
             <?php

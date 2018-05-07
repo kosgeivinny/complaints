@@ -26,84 +26,107 @@
     <br>
     <div>
     <div id="upmenu">
-    <img src="../images/18.jpg" indent="centre" class="one">
+    <img src="../images/header.jpg" indent="centre" class="one">
     </div>
     </div>
-  
-<div id="menu"
-<ul>
-<li> <a class="glyphicon glyphicon-home" href="../index.php"> HOME </a></li>
-<li><a href="home.php" class="glyphicon glyphicon-globe"> CHILDRENS' HOME </a></li>
-<li class="dropdown active"><a class="dropbtn"> STAFF </a>
-      <div class="dropdown-content">
-         <a href="#mModal" data-toggle="modal" data-target="#mModal"><span class="glyphicon glyphicon-log-in"></span> Login </a>
-         <a href="staff_signup.php"><span class="glyphicon glyphicon-user"></span> Signup </a>
-      </div>
-</li>
 
-<li class="dropdown"><a class="dropbtn"> ADOPTER </a>
-      <div class="dropdown-content">
-         <a href="#myModal" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login </a>
-         <a href="adopter_signup.php"><span class="glyphicon glyphicon-user"></span> Signup </a>
-      </div>
-</li>
+    <div id="menu"
+    <ul>
+        <li> <a class="glyphicon glyphicon-home" href="../index.php"> HOME </a></li>
 
-<li class="dropdown"><a class="dropbtn"> About_us </a>
-      <div class="dropdown-content">
-         <a href="about.php"> About Team </a>
-         <a href="contacts.php"><span class="glyphicon glyphicon-phone"></span> Contact Details </a>
-      </div>
-</li>
-</ul>
+        <li class="dropdown"><a class="dropbtn"><span class="glyphicon glyphicon-user"></span> STUDENT </a>
+            <div class="dropdown-content">
+                <a href="#sModal" data-toggle="modal" data-target="#sModal"><span class="glyphicon glyphicon-log-in"></span> Login </a>
+                <a href="../forms/student_signup.php"> <span class="glyphicon glyphicon-user"></span> Signup </a>
+            </div>
+        </li>
+
+        <li class="dropdown active"><a class="dropbtn"><span class="glyphicon glyphicon-user"></span> STAFF </a>
+            <div class="dropdown-content">
+                <a href="#mModal" data-toggle="modal" data-target="#mModal"><span class="glyphicon glyphicon-log-in"></span> Login </a>
+                <a href="../forms/staff_signup.php"> <span class="glyphicon glyphicon-user"></span> Signup </a>
+            </div>
+        </li>
+
+
+        <li class="dropdown"><a class="dropbtn"><span class="glyphicon glyphicon-user"></span> ADMIN </a>
+            <div class="dropdown-content">
+                <a href="#aModal" data-toggle="modal" data-target="#aModal"><span class="glyphicon glyphicon-log-in"></span> Login </a>
+                <a href="../forms/admin_signup.php"> <span class="glyphicon glyphicon-user"></span> Signup </a>
+            </div>
+        </li>
+    </ul>
 </div>
 
-  <div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-          <h4 class="modal-title">Log-in</h4>
-        </div>
-        <div class="modal-body">
-            <section>       
-                <div id="container_dem" >
-                    
-                    <a class="hiddenanchor" id="toregiste"></a>
-                    <a class="hiddenanchor" id="tologi"></a>
-                    <div id="wrappe">
-                        <div id="login" class="animate form">
-                            <form  action="adopterloginver.php" autocomplete="on"> 
-                                <h1>Log in</h1> 
-                                <p> 
-                                    <label for="username" class="uname" ><span class="glyphicon glyphicon-user"></span> Your  username: </label>
-                                    <input id="username" name="username" required="required" type="text" placeholder="Username!"/>
-                                </p>
-                                <p> 
-                                    <label for="password" class="youpasswd"><span class="glyphicon glyphicon-lock"></span> Your password: </label>
-                                    <input id="password" name="password" required="required" type="password" placeholder="Enter password here!" /> 
-                                </p>
-                                <p class="keeplogin"> 
-                  <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
-                  <label for="loginkeeping">Keep me logged in</label>
-                </p>
-                                <p class="login button"> 
-                                    <input type="submit" value="Login" /> 
-                </p>
-                                <p class="change_link">
-                  Not a member yet ?
-                  <a href="adopter_signup.php" class="to_register">Join us</a>
-                </p>
-                            </form>
+<div class="modal fade" id="sModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h2 class="modal-title"> Log-in </h2>
+            </div>
+            <div class="modal-body">
+                <section id="content">
+                    <form action="studentloginver.php" method="POST" >
+                        <h1> Login here </h1>
+                        <div>
+                            <input type="text" placeholder="Username" required="" id="username" />
                         </div>
+                        <div>
+                            <input type="password" placeholder="Password" required="" id="password" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Log in" />
 
+                        </div>
+                        <div style="border-top: 1px solid#888; padding-top:0px; font-size:8%" >
+                            <br> <br> <h6>Don't have an account! </h6>
+                            <a href="student_signup.php">
+                                <h7> <i>Sign Up Here</i></h7> <br>
+                            </a>
+                        </div>
+                    </form><!-- form -->
+
+                </section><!-- content -->
+            </div>
         </div>
-      </div>
-    </section>
-       </div>
     </div>
-</div>
 </div>
 <div class="modal fade" id="mModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h2 class="modal-title"> Log-in </h2>
+            </div>
+            <div class="modal-body">
+                <section id="content">
+                    <form action="staffloginver.php" method="POST" >
+                        <h1> Login here </h1>
+                        <div>
+                            <input type="text" placeholder="Username" required="" id="username" />
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Password" required="" id="password" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Log in" />
+
+                        </div>
+                        <div style="border-top: 1px solid#888; padding-top:0px; font-size:8%" >
+                            <br> <br> <h6>Don't have an account! </h6>
+                            <a href="staff_signup.php">
+                                <h7> <i>Sign Up Here</i></h7> <br>
+                            </a>
+                        </div>
+                    </form><!-- form -->
+
+                </section><!-- content -->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="aModal">
   <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -112,7 +135,7 @@
         </div>
         <div class="modal-body">
           <section id="content">
-    <form action="staffloginver.php" method="POST" >
+    <form action="adminloginver.php" method="POST" >
       <h1> Login here </h1>
       <div>
         <input type="text" placeholder="Username" required="" id="username" />
@@ -126,7 +149,7 @@
       </div>
       <div style="border-top: 1px solid#888; padding-top:0px; font-size:8%" >
                                             <br> <br> <h6>Don't have an account! </h6>
-                                        <a href="staff_signup.php">
+                                        <a href="admin_signup.php">
                                             <h7> <i>Sign Up Here</i></h7> <br>
                                         </a>
             </div>
@@ -168,68 +191,54 @@
 			
 				<div class="row">
 					<div class="col-sm-4 form-group">
-						<label> Gender: </label>
-						<select class="form-control" name="gender">
-       			 		<option> Male </option>
-       			 		<option> Female </option>
+						<label> Department: </label>
+						<select class="form-control" name="department">
+       			 		<option> Education </option>
+       			 		<option> Computing and Informatics </option>
+                        <option> Medicine </option>
+                        <option> Public Health </option>
+                        <option> Political Science</option>
+                        <option> Criminology </option>
+                        <option> Biochem </option>
+                        <option> Nursing </option>
+                        <option> Public Administration </option>
+                         <option> Agricultural Economics</option>
      					</select>
      				</div>
 
      				<div class="col-sm-4 form-group">
-						<label> Date of birth: </label>
-						<input type="int"class="form-control" name="dob" placeholder="yyyy/mm/dd">
+						<label> Job Title: </label>
+						<input type="text"class="form-control" name="job" placeholder="e.g Lecturer, Security officer...">
 			    	</div>
 			
 					<div class="col-sm-4 form-group">
-						<label> Status: </label>
+						<label> Gender: </label>
 						<div class="radio">
-		    			<label class="radio-inline"><input type="radio" name="status" value="single" checked required> Single </label> 
-   						<label class="radio-inline"><input type="radio" name="status" value="Married" required> Married </label>
+		    			<label class="radio-inline"><input type="radio" name="gender" value="Male" checked required> Male </label>
+   						<label class="radio-inline"><input type="radio" name="gender" value="Female" required> Female </label>
     					</div>
     				</div>
     			</div>
-    			<div class="row">
-    		
-					<div class="col-sm-4 form-group">
-						<label> Id number: </label>
-						<input type="int" class="form-control" name="nationalid" placeholder="National ID">
-					</div>
-					<div class="col-sm-4 form-group">
-						<label> Phone number: </label>
-						<input type="int" class="form-control" name="phonenumber" placeholder="Phone number">
-					</div>
-					<div class="col-sm-4 form-group">
-						<label> County: </label>
-						<input type="text"class="form-control" name="county" placeholder="County">
-					</div>
-				</div>
+
 				<div class="row">
 			
 
 					<div class="col-sm-4 form-group">
-						<label> Home ID: </label>
-						<input type="text"class="form-control" name="childrenshomeid" placeholder="Home ID">
-					</div>
-			
-					<div class="col-sm-4 form-group">
 						<label> Email: </label>
-						<input type="email"class="form-control" name="email" placeholder="Email">
+						<input type="email" class="form-control" name="email" placeholder="Email">
 					</div>
 			
 					<div class="col-sm-4 form-group">
 						<label> Username: </label>
-						<input type="text"class="form-control" name="username" placeholder="Username">
+						<input type="text" class="form-control" name="username" placeholder="Username">
+					</div>
+			
+					<div class="col-sm-4 form-group">
+						<label> Password: </label>
+						<input type="password" class="form-control" name="password" placeholder="Password">
 					</div>
 			</div>
-			<div class="row">
 
-				<div class="col-sm-4 form-group">
-					<label> Password: </label>
-					<input type="password" class="form-control" name="pwd" placeholder="Enter Password">
-				</div>
-					<span class="help-block"> * Should be a combination of uppercase, lowerscase and numbers.</span>
-			</div>
-			
             <div class="row">
 				<div class="col-sm-2 form-group">
 				
