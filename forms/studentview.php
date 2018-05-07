@@ -128,7 +128,7 @@ include "../forms/studentloginver.php";
 
     <div class="row">
         <div class="col-lg-12" >
-            &copy;  2017 maseno.ac.ke | Design by: <a href="http://binarytheme.com" style="color:#fff;" target="_blank">GK, VK & EM</a>
+            &copy;  2018 Online Complain System | Design by: <a href="http://binarytheme.com" style="color:#fff;" target="_blank"> VK </a>
         </div>
     </div>
 </div>

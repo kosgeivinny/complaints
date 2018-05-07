@@ -2,91 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a184c61d-e092-4ac8-953c-b3c2570c6d61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin_connect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin_login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin_logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/admin_signup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/adminloginver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/complain_connect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/solved_staff.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/solved_student.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/stacomplain_connect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staff_complain.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staff_complains.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staff_response.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staff_solved.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/staffresponse_connect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_complain.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_connect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_response.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_signup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_solved.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/studentloginver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/studentresponse_connect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/students_complains.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/studentview.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopted.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopter_connect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopter_login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopter_signup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterheader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterloginver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterreject.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterview.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adopterview2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adoptf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adoption.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adoptionform.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/adoptionprocedure.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/child_connect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/child_signup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/childdelete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/childupdate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/childupdate_connect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/confirmation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/confirmation2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/contacts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/donate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/home.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/home_connect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/home_signup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/popup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/proc.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsor_connect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsored.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorform.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorreject.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorview.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/sponsorview2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/staffloginverbackup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/staffloginverbackup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forms/viewver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simple-file-upload.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staff_actions.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/bootstrap/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connect/connect.php" afterPath="$PROJECT_DIR$/connect/connect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/footer.php" afterPath="$PROJECT_DIR$/forms/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staff.php" afterPath="$PROJECT_DIR$/forms/staff.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staff_connect.php" afterPath="$PROJECT_DIR$/forms/staff_connect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staff_login.php" afterPath="$PROJECT_DIR$/forms/staff_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staff_signup.php" afterPath="$PROJECT_DIR$/forms/staff_signup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staffloginver.php" afterPath="$PROJECT_DIR$/forms/staffloginver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/staffview.php" afterPath="$PROJECT_DIR$/forms/staffview.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/studentview.php" afterPath="$PROJECT_DIR$/forms/studentview.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -110,13 +26,13 @@
       <file leaf-file-name="studentview.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forms/studentview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2456">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="74">
+              <caret line="130" column="134" lean-forward="false" selection-start-line="130" selection-start-column="134" selection-end-line="130" selection-end-column="134" />
               <folding>
-                <marker date="1525680229768" expanded="true" signature="3178:3289" ph="SELECT First... student_complain" />
-                <marker date="1525680229768" expanded="false" signature="3433:3457" ph="..." />
-                <marker date="1525680229768" expanded="true" signature="3458:3566" ph="..." />
-                <marker date="1525680229768" expanded="true" signature="3470:3566" ph="..." />
+                <marker date="1525682048477" expanded="true" signature="3178:3289" ph="SELECT First... student_complain" />
+                <marker date="1525682048477" expanded="false" signature="3433:3457" ph="..." />
+                <marker date="1525682048477" expanded="true" signature="3458:3566" ph="..." />
+                <marker date="1525682048477" expanded="true" signature="3470:3566" ph="..." />
               </folding>
             </state>
           </provider>
@@ -370,16 +286,15 @@
       <workItem from="1525609380622" duration="969000" />
       <workItem from="1525622413438" duration="1753000" />
       <workItem from="1525627485325" duration="7155000" />
-      <workItem from="1525676031340" duration="3972000" />
+      <workItem from="1525676031340" duration="4134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46932000" />
+    <option name="totallyTimeSpent" value="47094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="677" y="-4" width="1368" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20278184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -800,13 +715,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/studentview.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2456">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="74">
+          <caret line="130" column="134" lean-forward="false" selection-start-line="130" selection-start-column="134" selection-end-line="130" selection-end-column="134" />
           <folding>
-            <marker date="1525680229768" expanded="true" signature="3178:3289" ph="SELECT First... student_complain" />
-            <marker date="1525680229768" expanded="false" signature="3433:3457" ph="..." />
-            <marker date="1525680229768" expanded="true" signature="3458:3566" ph="..." />
-            <marker date="1525680229768" expanded="true" signature="3470:3566" ph="..." />
+            <marker date="1525682048477" expanded="true" signature="3178:3289" ph="SELECT First... student_complain" />
+            <marker date="1525682048477" expanded="false" signature="3433:3457" ph="..." />
+            <marker date="1525682048477" expanded="true" signature="3458:3566" ph="..." />
+            <marker date="1525682048477" expanded="true" signature="3470:3566" ph="..." />
           </folding>
         </state>
       </provider>
