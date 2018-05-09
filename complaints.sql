@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 06, 2018 at 06:28 PM
+-- Generation Time: May 07, 2018 at 03:40 PM
 -- Server version: 5.7.22-0ubuntu0.16.04.1
 -- PHP Version: 7.0.28-0ubuntu0.16.04.1
 
@@ -150,6 +150,13 @@ CREATE TABLE `student_complain` (
   `Complain` varchar(2000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `student_complain`
+--
+
+INSERT INTO `student_complain` (`ID`, `First_name`, `Last_name`, `Course`, `Department`, `Complain`) VALUES
+(1, 'Vincent', 'Kipchirchir', 'Information Technology', 'Computing and Informatics', ' This system is poor');
+
 -- --------------------------------------------------------
 
 --
@@ -236,7 +243,7 @@ ALTER TABLE `staff_response`
 -- AUTO_INCREMENT for table `student_complain`
 --
 ALTER TABLE `student_complain`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `student_response`
 --
